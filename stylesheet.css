@@ -1,0 +1,105 @@
+/* Main styles for academic profile */
+body {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Name styling */
+.name {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 20px 0;
+}
+
+/* Paper title styling */
+.papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Link styling */
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+/* Heading styles */
+h2 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+/* Paragraph styles */
+p {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0 0 15px 0;
+}
+
+/* Strong text */
+strong {
+  font-weight: 700;
+}
+
+/* Image hover effect */
+.hoverZoomLink:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Table styling */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+td {
+  vertical-align: top;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .name {
+    font-size: 24px;
+  }
+  
+  table {
+    width: 100% !important;
+    max-width: none !important;
+  }
+  
+  td[style*="width:63%"] {
+    width: 100% !important;
+    display: block;
+  }
+  
+  td[style*="width:40%"] {
+    width: 100% !important;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  img[style*="250px"] {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
